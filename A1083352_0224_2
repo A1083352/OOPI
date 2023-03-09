@@ -1,0 +1,12 @@
+//攝氏華氏
+import java.util.*;
+
+public class A1083352_0224_2 {
+    public static void main(String args[]) {
+        System.out.printf("please enter temperature in Celsius： ");
+        Scanner temp = new Scanner(System.in);
+        int temp2 = temp.nextInt();
+        System.out.println("Convert Fahrenheit：" + (temp2 * 9 / 5 + 32));
+    }
+
+}
